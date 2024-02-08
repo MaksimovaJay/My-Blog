@@ -1,7 +1,89 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
 }
 
+body {
+    background: url("https://top-fon.com/uploads/posts/2023-01/1674766275_top-fon-com-p-memnie-foni-dlya-prezentatsii-54.jpg");
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4c3087;
+    min-height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    color: white;
+    margin-left: 30px;
+    font-size: 52px;
+    text-decoration: none;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: white;
+    margin-right: 58px;
+    font-size: 22px;
+}
+
+.active {
+    color: deepskyblue;
+}
+
+.link-nav:hover {
+    border-bottom: 1px solid deepskyblue;
+    color: deepskyblue;
+}
+
+.post {
+    border: 2px solid black;
+    max-width: 50%;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+
+}
+.post:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.post-date {
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+
+}
+
+.post-title {
+    display: inline-block;
+    color: white;
+
+}
+
+.button-read-more {
+    padding: 10px;
+    background: deepskyblue;
+    border: none;
+    width: 20%;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4c3087;
+}
+.button-read-more:hover {
+    color: white;
+    background: #4c3087;
+}
